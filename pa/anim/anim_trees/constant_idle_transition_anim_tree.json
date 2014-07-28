@@ -1,0 +1,62 @@
+{
+  "blend_root": {
+    "nodes": {
+      "being_built": {
+        "type": "bind_pose"
+      },
+      "dead": {
+        "type": "bind_pose"
+      },
+      "ghost": {
+        "type": "bind_pose"
+      },
+      "living": {
+        "entries": [
+          {
+            "name": "idle",
+            "node": {
+              "anim_name": "start",
+              "looping": false,
+              "type": "playback"
+            },
+            "reset": "playback_reset",
+            "transition_forward": {
+              "func": "anim_complete",
+              "target": "build_loop"
+            },
+            "transition_reverse": {
+              "func": "anim_complete",
+              "target": "build_loop"
+            },
+            "type": "sequence_entry"
+          },
+          {
+            "name": "build_loop",
+            "node": {
+              "anim_name": "loop",
+              "looping": true,
+              "type": "playback"
+            },
+            "reset": "playback_reset",
+            "transition_forward": {
+              "func": "anim_complete",
+              "target": "build_loop"
+            },
+            "transition_reverse": {
+              "func": "anim_complete",
+              "target": "build_loop"
+            },
+            "type": "sequence_entry"
+          }
+        ],
+        "transition_seek": {
+          "false_target": "idle",
+          "func": "has_energy",
+          "true_target": "idle"
+        },
+        "type": "sequence"
+      }
+    },
+    "type": "unit_state"
+  }
+}

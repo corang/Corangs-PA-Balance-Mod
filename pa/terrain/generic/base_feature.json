@@ -1,0 +1,7 @@
+{
+  "damageable": false,
+  "max_health": 25,
+  "metal_rate": 0,
+  "metal_value": 15,
+  "reclaimable": false
+}

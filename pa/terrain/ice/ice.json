@@ -1,0 +1,1183 @@
+{
+  "base_texture": "/pa/terrain/ice/textures/base/ice_tile_diffuse.papa",
+  "brushes": [
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_01.json",
+      "layer": 2,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1,
+      "weight_scale": 4
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_02.json",
+      "layer": 2,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1,
+      "weight_scale": 4
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_03.json",
+      "layer": 2,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1,
+      "weight_scale": 5
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_04.json",
+      "layer": 2,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1,
+      "weight_scale": 6
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_05.json",
+      "layer": 1,
+      "noise_range": [
+        0.35,
+        0.36
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 2
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_06.json",
+      "layer": 1,
+      "noise_range": [
+        0.34,
+        0.36
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 2
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_07.json",
+      "layer": 1,
+      "noise_range": [
+        0.34,
+        0.36
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 2
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        60,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_08.json",
+      "layer": 1,
+      "noise_range": [
+        0.34,
+        0.36
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 2
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        60,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_09.json",
+      "layer": 1,
+      "noise_range": [
+        0.46,
+        0.48
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 2
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_10.json",
+      "layer": 1,
+      "noise_range": [
+        0.45,
+        0.47
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 2
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        60,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_cliff_11.json",
+      "layer": 1,
+      "noise_range": [
+        0.45,
+        0.48
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_hard": 1,
+      "weight_scale": 4
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_crack_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/ice/brushes/ice_crack_02.json",
+      "layer": 3,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 4,
+      "weight_hard": 1,
+      "weight_scale": 3
+    }
+  ],
+  "color": [
+    0.95,
+    0.95,
+    0.95,
+    1
+  ],
+  "decals": [
+    {
+      "bias": 200,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        1.0
+      ],
+      "layer": 8,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_01.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0,
+      "water_distance_range": [
+        -60.0,
+        null
+      ]
+    },
+    {
+      "bias": 200,
+      "biome_distance_range": [
+        0,
+        5
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 9,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_02.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.2,
+        0.2
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.08
+      ],
+      "layer": 10,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_01.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.15
+      ],
+      "layer": 11,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_02.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.2
+      ],
+      "layer": 12,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_03.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0
+    }
+  ],
+  "features": [
+    {
+      "cluster_count_range": [
+        0,
+        4
+      ],
+      "cluster_size": 12,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 12,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_02.json",
+      "layer": 4,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_03.json",
+      "layer": 5,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 11,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_04.json",
+      "layer": 6,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 11,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_05.json",
+      "layer": 7,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 10
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_06.json",
+      "layer": 8,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "cluster_size": 9,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_07.json",
+      "layer": 9,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "cluster_size": 9,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_08.json",
+      "layer": 10,
+      "noise_range": [
+        0.1,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_09.json",
+      "layer": 11,
+      "noise_range": [
+        0.25,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_10.json",
+      "layer": 12,
+      "noise_range": [
+        0.5,
+        0.52
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_11.json",
+      "layer": 13,
+      "noise_range": [
+        0.55,
+        0.56
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_12.json",
+      "layer": 14,
+      "noise_range": [
+        0.5,
+        0.51
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_13.json",
+      "layer": 15,
+      "noise_range": [
+        0.3,
+        0.31
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_14.json",
+      "layer": 15,
+      "noise_range": [
+        0.35,
+        0.36
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_15.json",
+      "layer": 15,
+      "noise_range": [
+        0.44,
+        0.45
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_16.json",
+      "layer": 15,
+      "noise_range": [
+        0.5,
+        0.51
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_17.json",
+      "layer": 15,
+      "noise_range": [
+        0.36,
+        0.37
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/ice/features/ice_chunk_18.json",
+      "layer": 15,
+      "noise_range": [
+        0.38,
+        0.39
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_01.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_02.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_03.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_04.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_05.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_06.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_07.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_08.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_09.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_10.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_11.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_12.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 5,
+      "feature_spec": "/pa/terrain/ice/features/ice_floater_13.json",
+      "layer": 16,
+      "noise_range": [
+        0,
+        1
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "water_distance_range": [
+        -20,
+        10
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "note": "0"
+    },
+    {
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 5
+      },
+      "note": "1"
+    },
+    {
+      "noise": {
+        "scale": 50,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "2"
+    },
+    {
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 5
+      },
+      "note": "3"
+    },
+    {
+      "inherit_noise": true,
+      "note": "4"
+    },
+    {
+      "inherit_noise": true,
+      "note": "5"
+    },
+    {
+      "inherit_noise": true,
+      "note": "6"
+    },
+    {
+      "inherit_noise": true,
+      "note": "7"
+    },
+    {
+      "inherit_noise": true,
+      "note": "8"
+    },
+    {
+      "inherit_noise": true,
+      "note": "9"
+    },
+    {
+      "inherit_noise": true,
+      "note": "10"
+    },
+    {
+      "inherit_noise": true,
+      "note": "11"
+    },
+    {
+      "inherit_noise": true,
+      "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "noise": {
+        "scale": 50,
+        "type": "simplex",
+        "zoom": 0
+      },
+      "note": "16"
+    }
+  ],
+  "material_texture": "/pa/terrain/ice/textures/base/ice_tile_material.papa",
+  "name": "ice",
+  "normal_texture": "/pa/terrain/ice/textures/base/ice_tile_normal.papa"
+}

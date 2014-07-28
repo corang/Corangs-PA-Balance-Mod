@@ -1,0 +1,313 @@
+{
+  "base_texture": "/pa/terrain/sand/textures/base/sand_tile_diffuse.papa",
+  "color": [
+    0.92,
+    0.78,
+    0.68,
+    1
+  ],
+  "decals": [
+    {
+      "bias": 100,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 8,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_01.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0
+    },
+    {
+      "bias": 200,
+      "biome_distance_range": [
+        0,
+        5
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 9,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_02.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.2,
+        0.2
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.04
+      ],
+      "layer": 10,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_shore_01.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0.0
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.09
+      ],
+      "layer": 11,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_water_01.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0.0
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.14
+      ],
+      "layer": 12,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_water_02.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0.0
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        -0.2
+      ],
+      "layer": 13,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_water_03.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0.0
+    }
+  ],
+  "features": [
+    {
+      "cluster_count_range": [
+        3,
+        7
+      ],
+      "cluster_size": 10,
+      "elevation_range": [
+        -0.6,
+        0.3
+      ],
+      "feature_spec": "/pa/terrain/grass/features/grass_tree_01.json",
+      "layer": 0,
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "note": "For demonstrating near-water placement. Set to an active layer to enable.",
+      "op": "BO_Add",
+      "scale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "water_distance_range": [
+        -60.0,
+        30.0
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 1.5
+      },
+      "note": "0"
+    },
+    {
+      "disable": false,
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 15
+      },
+      "note": "1"
+    },
+    {
+      "disable": false,
+      "inherit_weight": true,
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 10
+      },
+      "note": "2"
+    },
+    {
+      "noise": {
+        "scale": 4,
+        "type": "simplex",
+        "zoom": 10
+      },
+      "note": "3"
+    },
+    {
+      "inherit_noise": true,
+      "note": "4"
+    },
+    {
+      "inherit_noise": true,
+      "note": "5"
+    },
+    {
+      "inherit_noise": true,
+      "note": "6"
+    },
+    {
+      "inherit_noise": true,
+      "note": "7"
+    },
+    {
+      "inherit_noise": true,
+      "note": "8"
+    },
+    {
+      "inherit_noise": true,
+      "note": "9"
+    },
+    {
+      "inherit_noise": true,
+      "note": "10"
+    },
+    {
+      "inherit_noise": true,
+      "note": "11"
+    },
+    {
+      "inherit_noise": true,
+      "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "inherit_noise": true,
+      "note": "16"
+    },
+    {
+      "inherit_noise": true,
+      "note": "17"
+    },
+    {
+      "inherit_noise": true,
+      "note": "18"
+    },
+    {
+      "inherit_noise": true,
+      "note": "19"
+    },
+    {
+      "inherit_noise": true,
+      "note": "20"
+    },
+    {
+      "inherit_noise": true,
+      "note": "21"
+    },
+    {
+      "inherit_noise": true,
+      "note": "22"
+    },
+    {
+      "inherit_noise": true,
+      "note": "23"
+    },
+    {
+      "inherit_noise": true,
+      "note": "24"
+    }
+  ],
+  "name": "sand",
+  "normal_texture": "/pa/terrain/sand/textures/base/sand_tile_normal.papa"
+}

@@ -1,0 +1,966 @@
+{
+  "base_texture": "/pa/terrain/mountain/textures/base/mountain_tile_diffuse.papa",
+  "brushes": [
+    {
+      "biome_distance_range": [
+        80,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_pit_02.json",
+      "layer": 0,
+      "noise_range": [
+        0.2,
+        0.25
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.0,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 4
+    },
+    {
+      "bias": 4,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_02.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.5
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
+      "layer": 3,
+      "noise_range": [
+        0.55,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 4
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.5
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_05.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_06.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "biome_distance_range": [
+        70,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.2,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 3
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        30,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_plateau_02.json",
+      "layer": 3,
+      "noise_range": [
+        0.85,
+        0.9
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 4
+    },
+    {
+      "biome_distance_range": [
+        90,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_plateau_03.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.5
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.2,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 3,
+      "biome_distance_range": [
+        30,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_plateau_04.json",
+      "layer": 3,
+      "noise_range": [
+        0.85,
+        0.9
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.2,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 4
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_crack_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.1,
+        0.11
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1,
+      "weight_scale": 1.5
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        60,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_crack_02.json",
+      "layer": 3,
+      "noise_range": [
+        0.1,
+        0.11
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1,
+      "weight_scale": 1.5
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_crack_03.json",
+      "layer": 3,
+      "noise_range": [
+        0.1,
+        0.12
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1,
+      "weight_scale": 1.5
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_crack_04.json",
+      "layer": 3,
+      "noise_range": [
+        0.7,
+        0.71
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1,
+      "weight_scale": 1.5
+    },
+    {
+      "bias": 2,
+      "biome_distance_range": [
+        80,
+        null
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_crack_05.json",
+      "layer": 3,
+      "noise_range": [
+        0.7,
+        0.71
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1,
+      "weight_scale": 1.5
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        70,
+        75
+      ],
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_henge.json",
+      "elevation_range": [
+        0.0,
+        0.45
+      ],
+      "layer": 3,
+      "max_instances": 1,
+      "noise_range": [
+        0.0,
+        0.1
+      ],
+      "note": "(Landmark - occurs only once on a planet, set to layer 3)",
+      "op": "BO_Add",
+      "planet_size_range": [
+        699,
+        1000
+      ],
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        60,
+        75
+      ],
+      "brush_spec": "/pa/terrain/generic/brushes/unit_cannon_wreckage.json",
+      "elevation_range": [
+        0.0,
+        0.45
+      ],
+      "layer": 3,
+      "max_instances": 1,
+      "noise_range": [
+        0.1,
+        0.3
+      ],
+      "note": "(Landmark - occurs only once on a planet, set to layer 3)",
+      "op": "BO_Add",
+      "planet_size_range": [
+        500,
+        700
+      ],
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1,
+      "weight_hard": true
+    }
+  ],
+  "color": [
+    0.5,
+    0.5,
+    0.5,
+    1
+  ],
+  "decals": [
+    {
+      "bias": 100,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 8,
+      "material_spec": "/pa/terrain/mountain/decals/mountain_decal_01.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0,
+        0
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0
+    },
+    {
+      "bias": 200,
+      "biome_distance_range": [
+        0,
+        5
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 9,
+      "material_spec": "/pa/terrain/mountain/decals/mountain_decal_02.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.2,
+        0.2
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2
+    },
+    {
+      "bias": 200,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 10,
+      "material_spec": "/pa/terrain/mountain/decals/mountain_decal_03.json",
+      "noise_range": [
+        0.5,
+        0.6
+      ],
+      "pos_range": [
+        0.2,
+        0.2
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0.0
+    }
+  ],
+  "features": [
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_02.json",
+      "layer": 4,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_03.json",
+      "layer": 5,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_04.json",
+      "layer": 6,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_05.json",
+      "layer": 7,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_06.json",
+      "layer": 8,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_07.json",
+      "layer": 9,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_08.json",
+      "layer": 10,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_09.json",
+      "layer": 11,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_10.json",
+      "layer": 12,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_11.json",
+      "layer": 13,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_12.json",
+      "layer": 14,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_13.json",
+      "layer": 15,
+      "noise_range": [
+        0.47,
+        0.48
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_14.json",
+      "layer": 16,
+      "noise_range": [
+        0.48,
+        0.49
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_15.json",
+      "layer": 17,
+      "noise_range": [
+        0.49,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_16.json",
+      "layer": 18,
+      "noise_range": [
+        0.5,
+        0.51
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_17.json",
+      "layer": 19,
+      "noise_range": [
+        0.52,
+        0.53
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/mountain/features/mountain_rock_18.json",
+      "layer": 20,
+      "noise_range": [
+        0.54,
+        0.55
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "note": "0"
+    },
+    {
+      "disable": false,
+      "noise": {
+        "scale": 1,
+        "simplex_octaves": 5,
+        "simplex_persistence": 0.8,
+        "simplex_scale": 10,
+        "type": "simplex",
+        "zoom": 2
+      },
+      "note": "1"
+    },
+    {
+      "disable": false,
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 5
+      },
+      "note": "2"
+    },
+    {
+      "inherit_noise": true,
+      "note": "3"
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    },
+    {
+      "inherit_noise": true
+    }
+  ],
+  "name": "mountain",
+  "normal_texture": "/pa/terrain/mountain/textures/base/mountain_tile_normal.papa"
+}

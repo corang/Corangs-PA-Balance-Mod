@@ -1,0 +1,5 @@
+{
+  "diffuse": "/pa/terrain/desert/textures/base/desert_rock_decal_03_diffuse.papa",
+  "material": "/pa/terrain/generic/decal_null_material.papa",
+  "normal": "/pa/terrain/desert/textures/base/desert_rock_decal_03_normal.papa"
+}

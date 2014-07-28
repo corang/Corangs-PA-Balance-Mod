@@ -1,0 +1,1021 @@
+{
+  "base_texture": "/pa/terrain/desert/textures/base/desert_tile_diffuse.papa",
+  "brushes": [
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        20,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.8,
+        0.9
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "threshold": 1,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        20,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_02.json",
+      "layer": 3,
+      "noise_range": [
+        0.8,
+        0.9
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.25,
+      "threshold": 0,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_03.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_04.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_05.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        70,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_pit_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.5,
+        0.7
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        60,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_pit_02.json",
+      "layer": 0,
+      "noise_range": [
+        0.25,
+        0.3
+      ],
+      "note": "was layer 2",
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.3,
+      "threshold": 4,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        75,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        75,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_09.json",
+      "layer": 3,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        75,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_10.json",
+      "layer": 3,
+      "noise_range": [
+        0.6,
+        0.7
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        75,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_11.json",
+      "layer": 3,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_plateau_12.json",
+      "layer": 3,
+      "noise_range": [
+        0.5,
+        0.7
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 1,
+      "weight": 1.0,
+      "weight_scale": 1.0
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_02.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        100.0,
+        2000.0
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_03.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        100.0,
+        2000.0
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_04.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        100.0,
+        2000.0
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_05.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        100.0,
+        2000.0
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_06.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        100.0,
+        2000.0
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 4,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_08.json",
+      "layer": 3,
+      "max_instances": 2,
+      "noise_range": [
+        0.8,
+        0.85
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        200.0,
+        null
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 3,
+      "biome_distance_range": [
+        100,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_crack_09.json",
+      "layer": 3,
+      "max_instances": 2,
+      "noise_range": [
+        0.75,
+        0.8
+      ],
+      "op": "BO_Subtract",
+      "planet_size_range": [
+        200.0,
+        null
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 1,
+      "biome_distance_range": [
+        80,
+        null
+      ],
+      "brush_spec": "/pa/terrain/desert/brushes/desert_ruins_01.json",
+      "elevation_range": [
+        0.0,
+        0.1
+      ],
+      "layer": 3,
+      "max_instances": 1,
+      "noise_range": [
+        0.8,
+        0.9
+      ],
+      "note": "(Landmark - occurs only once on a planet)",
+      "op": "BO_Add",
+      "planet_size_range": [
+        600,
+        700
+      ],
+      "proj": "BP_Bend",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    }
+  ],
+  "color": [
+    0.89,
+    0.68,
+    0.45,
+    1
+  ],
+  "decals": [
+    {
+      "bias": 100,
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        1.0
+      ],
+      "layer": 8,
+      "material_spec": "/pa/terrain/desert/decals/desert_sand_decal_02.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0.1
+    },
+    {
+      "bias": 100,
+      "biome_distance_range": [
+        50,
+        null
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        1.0
+      ],
+      "layer": 10,
+      "material_spec": "/pa/terrain/desert/decals/desert_cracks_decal_01.json",
+      "noise_range": [
+        0.2,
+        0.6
+      ],
+      "pos_range": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        70,
+        70,
+        1
+      ],
+      "scale_variation": 0.3
+    },
+    {
+      "bias": 100,
+      "biome_distance_range": [
+        20,
+        50
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        1.0
+      ],
+      "layer": 11,
+      "material_spec": "/pa/terrain/desert/decals/desert_cracks_decal_02.json",
+      "noise_range": [
+        0.6,
+        0.9
+      ],
+      "pos_range": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        80,
+        80,
+        1
+      ],
+      "scale_variation": 0.3
+    },
+    {
+      "bias": 200,
+      "biome_distance_range": [
+        0,
+        5
+      ],
+      "count": 1,
+      "elevation_range": [
+        -1.0,
+        1.0
+      ],
+      "layer": 9,
+      "material_spec": "/pa/terrain/desert/decals/desert_sand_decal_03.json",
+      "noise_range": [
+        0.0,
+        1.0
+      ],
+      "pos_range": [
+        0.25,
+        0.25
+      ],
+      "scale": [
+        60,
+        60,
+        1
+      ],
+      "scale_variation": 0.2
+    }
+  ],
+  "features": [
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_02.json",
+      "layer": 4,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_03.json",
+      "layer": 5,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_04.json",
+      "layer": 6,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_05.json",
+      "layer": 7,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_06.json",
+      "layer": 8,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_07.json",
+      "layer": 9,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_08.json",
+      "layer": 10,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_09.json",
+      "layer": 11,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_10.json",
+      "layer": 12,
+      "noise_range": [
+        0.3,
+        0.7
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_11.json",
+      "layer": 13,
+      "noise_range": [
+        0.3,
+        0.55
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_12.json",
+      "layer": 14,
+      "noise_range": [
+        0.3,
+        0.55
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_13.json",
+      "layer": 15,
+      "noise_range": [
+        0.3,
+        0.45
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_14.json",
+      "layer": 15,
+      "noise_range": [
+        0.3,
+        0.45
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_15.json",
+      "layer": 15,
+      "noise_range": [
+        0.3,
+        0.5
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/desert/features/desert_rock_16.json",
+      "layer": 15,
+      "noise_range": [
+        0.3,
+        0.45
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "note": "0"
+    },
+    {
+      "noise": {
+        "scale": 40,
+        "type": "simplex",
+        "zoom": 10
+      },
+      "note": "1"
+    },
+    {
+      "disable": false,
+      "inherit_weight": true,
+      "noise": {
+        "scale": 2,
+        "type": "simplex",
+        "zoom": 10
+      },
+      "note": "2"
+    },
+    {
+      "noise": {
+        "scale": 4,
+        "type": "simplex",
+        "zoom": 15
+      },
+      "note": "3"
+    },
+    {
+      "inherit_noise": true,
+      "note": "4"
+    },
+    {
+      "inherit_noise": true,
+      "note": "5"
+    },
+    {
+      "inherit_noise": true,
+      "note": "6"
+    },
+    {
+      "inherit_noise": true,
+      "note": "7"
+    },
+    {
+      "inherit_noise": true,
+      "note": "8"
+    },
+    {
+      "inherit_noise": true,
+      "note": "9"
+    },
+    {
+      "inherit_noise": true,
+      "note": "10"
+    },
+    {
+      "inherit_noise": true,
+      "note": "11"
+    },
+    {
+      "inherit_noise": true,
+      "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "inherit_noise": true,
+      "note": "16"
+    },
+    {
+      "inherit_noise": true,
+      "note": "17"
+    },
+    {
+      "inherit_noise": true,
+      "note": "18"
+    },
+    {
+      "inherit_noise": true,
+      "note": "19"
+    },
+    {
+      "inherit_noise": true,
+      "note": "20"
+    },
+    {
+      "inherit_noise": true,
+      "note": "21"
+    },
+    {
+      "inherit_noise": true,
+      "note": "22"
+    },
+    {
+      "inherit_noise": true,
+      "note": "23"
+    }
+  ],
+  "name": "desert",
+  "normal_texture": "/pa/terrain/desert/textures/base/desert_tile_normal.papa"
+}

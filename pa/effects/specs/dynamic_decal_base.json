@@ -1,0 +1,10 @@
+{
+  "recon": {
+    "observable": {
+      "ignore_radar": true,
+      "layer": "surface_and_air",
+      "retain_visible": true,
+      "sphere_radius": 5
+    }
+  }
+}

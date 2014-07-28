@@ -1,0 +1,5 @@
+{
+  "diffuse": "/pa/terrain/grass/textures/base/grass_decal_02_diffuse.papa",
+  "material": "/pa/terrain/generic/decal_null_material.papa",
+  "normal": "/pa/terrain/grass/textures/base/grass_decal_02_normal.papa"
+}

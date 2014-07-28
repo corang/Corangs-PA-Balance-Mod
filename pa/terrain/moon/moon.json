@@ -1,0 +1,559 @@
+{
+  "base_texture": "/pa/terrain/moon/textures/base/moon_tile_diffuse.papa",
+  "brushes": [
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/moon/brushes/crater_01.json",
+      "layer": 0,
+      "noise_range": [
+        0.3,
+        0.33
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_None",
+      "sample_scale": 1.2,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "scale_variation": 0.6,
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+      "layer": 4,
+      "noise_range": [
+        0.3,
+        0.32
+      ],
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "scale_variation": 0.4,
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": 1
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/moon/brushes/moon_ruin_01.json",
+      "elevation_range": [
+        0.0,
+        0.3
+      ],
+      "layer": 4,
+      "max_instances": 1,
+      "noise_range": [
+        0.85,
+        0.9
+      ],
+      "note": "(Landmark - occurs only once on a planet)",
+      "op": "BO_Add",
+      "planet_size_range": [
+        500,
+        900
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    },
+    {
+      "bias": 1,
+      "brush_spec": "/pa/terrain/generic/brushes/unit_cannon_wreckage.json",
+      "elevation_range": [
+        0.0,
+        0.3
+      ],
+      "layer": 4,
+      "max_instances": 1,
+      "noise_range": [
+        0.7,
+        0.71
+      ],
+      "note": "(Landmark - occurs only once on a planet)",
+      "op": "BO_Add",
+      "planet_size_range": [
+        700,
+        750
+      ],
+      "proj": "BP_Bend",
+      "sample_scale": 1.2,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "threshold": 0,
+      "weight": 2,
+      "weight_hard": true
+    }
+  ],
+  "color": [
+    0,
+    0.7,
+    0,
+    1
+  ],
+  "decals": [
+    {
+      "bias": 100,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 3,
+      "material_spec": "/pa/terrain/moon/decals/moon_decal_01.json",
+      "noise_range": [
+        0.0,
+        0.4
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        40,
+        40,
+        1
+      ],
+      "scale_variation": 0.25
+    },
+    {
+      "bias": 200,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 4,
+      "material_spec": "/pa/terrain/moon/decals/moon_decal_02.json",
+      "noise_range": [
+        0.5,
+        1.0
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        45,
+        45,
+        1
+      ],
+      "scale_variation": 0.25
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 6,
+      "material_spec": "/pa/terrain/moon/decals/moon_decal_03.json",
+      "noise_range": [
+        0.2,
+        0.8
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0.25
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 7,
+      "material_spec": "/pa/terrain/moon/decals/moon_decal_04.json",
+      "noise_range": [
+        0.47,
+        0.51
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        40,
+        40,
+        1
+      ],
+      "scale_variation": 0.75
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 5,
+      "material_spec": "/pa/terrain/moon/decals/moon_decal_05.json",
+      "noise_range": [
+        0.84,
+        0.86
+      ],
+      "pos_range": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        80,
+        80,
+        1
+      ],
+      "scale_variation": 0.4
+    }
+  ],
+  "features": [
+    {
+      "cluster_count_range": [
+        0,
+        15
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        14
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_02.json",
+      "layer": 4,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        13
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_03.json",
+      "layer": 5,
+      "noise_range": [
+        0.6,
+        0.8
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        12
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_04.json",
+      "layer": 6,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        11
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_05.json",
+      "layer": 7,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 10
+    },
+    {
+      "cluster_count_range": [
+        0,
+        10
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_06.json",
+      "layer": 8,
+      "noise_range": [
+        0.6,
+        0.8
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        6
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_07.json",
+      "layer": 9,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_08.json",
+      "layer": 10,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        4
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_09.json",
+      "layer": 11,
+      "noise_range": [
+        0.6,
+        0.8
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        3
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_10.json",
+      "layer": 12,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_11.json",
+      "layer": 13,
+      "noise_range": [
+        0.25,
+        0.45
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        1
+      ],
+      "cluster_size": 15,
+      "feature_spec": "/pa/terrain/moon/features/moon_rock_12.json",
+      "layer": 14,
+      "noise_range": [
+        0.65,
+        0.85
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "noise": {
+        "scale": 1.5,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "0"
+    },
+    {
+      "noise": {
+        "scale": 1,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "1"
+    },
+    {
+      "noise": {
+        "scale": 3,
+        "type": "simplex",
+        "zoom": 2
+      },
+      "note": "2"
+    },
+    {
+      "noise": {
+        "scale": 4,
+        "type": "simplex",
+        "zoom": 10
+      },
+      "note": "3"
+    },
+    {
+      "inherit_noise": true,
+      "note": "4"
+    },
+    {
+      "inherit_noise": true,
+      "note": "5"
+    },
+    {
+      "inherit_noise": true,
+      "note": "6"
+    },
+    {
+      "inherit_noise": true,
+      "note": "7"
+    },
+    {
+      "inherit_noise": true,
+      "note": "8"
+    },
+    {
+      "inherit_noise": true,
+      "note": "9"
+    },
+    {
+      "inherit_noise": true,
+      "note": "10"
+    },
+    {
+      "inherit_noise": true,
+      "note": "11"
+    },
+    {
+      "inherit_noise": true,
+      "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "inherit_noise": true,
+      "note": "16"
+    },
+    {
+      "inherit_noise": true,
+      "note": "17"
+    }
+  ],
+  "name": "moon",
+  "normal_texture": "/pa/terrain/moon/textures/base/moon_tile_normal.papa"
+}

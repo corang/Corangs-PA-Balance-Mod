@@ -1,0 +1,5 @@
+{
+  "diffuse": "/pa/terrain/ice/textures/base/ice_decal_water_03_diffuse.papa",
+  "material": "/pa/terrain/generic/decal_null_material.papa",
+  "normal": "/pa/terrain/ice/textures/base/ice_decal_water_normal.papa"
+}

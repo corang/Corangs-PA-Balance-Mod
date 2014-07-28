@@ -1,0 +1,5 @@
+{
+  "diffuse": "/pa/terrain/lava/textures/base/lava_decal_yellowSpots_diffuse.papa",
+  "material": "/pa/terrain/lava/textures/base/lava_glow_material.papa",
+  "normal": "/pa/terrain/lava/textures/base/lava_tile_normal.papa"
+}

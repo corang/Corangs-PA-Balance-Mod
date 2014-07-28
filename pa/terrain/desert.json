@@ -1,0 +1,126 @@
+{
+  "ambient_sound": "/SE/Ambience/Amb_Planet_Earth",
+  "atmosphere": {
+    "color": [
+      0.1,
+      0.25,
+      0.45,
+      0.5
+    ],
+    "density": 15.0,
+    "hdr_intensity": 2.0,
+    "ldr_intensity": 1.0
+  },
+  "base_biome": "/pa/terrain/base/base.json",
+  "biomes": [
+    {
+      "elevation": [
+        -1,
+        0.25,
+        1
+      ],
+      "spec": "/pa/terrain/sand/sand.json",
+      "temperture": [
+        -1.0,
+        1,
+        1
+      ],
+      "water_distance": [
+        null,
+        20,
+        1
+      ]
+    },
+    {
+      "elevation": [
+        0.2,
+        null,
+        0.2
+      ],
+      "spec": "/pa/terrain/desert/desert.json",
+      "temperture": [
+        -1,
+        1,
+        2
+      ],
+      "water_distance": [
+        150,
+        null,
+        1
+      ]
+    },
+    {
+      "elevation": [
+        0.4,
+        1,
+        3
+      ],
+      "spec": "/pa/terrain/mountain/mountain.json",
+      "temperture": [
+        -1,
+        1,
+        1
+      ],
+      "water_distance": [
+        null,
+        null,
+        0
+      ]
+    }
+  ],
+  "enable_features": true,
+  "lighting": {
+    "ambient": {
+      "day_ground": [
+        0.2,
+        0.2,
+        0.4
+      ],
+      "day_intensity_hdr": 1.0,
+      "day_intensity_ldr": 1.3,
+      "day_sky": [
+        0.6,
+        0.7,
+        1.0
+      ],
+      "hdr_intensity": 1.0,
+      "ldr_intensity": 1.0,
+      "night_ground": [
+        0.2,
+        0.2,
+        0.4
+      ],
+      "night_intensity_hdr": 1.0,
+      "night_intensity_ldr": 1.3,
+      "night_sky": [
+        0.4,
+        0.5,
+        1.0
+      ]
+    },
+    "sun": {
+      "diffuse": [
+        0.8,
+        0.7,
+        0.4
+      ],
+      "hdr_intensity": 10.0,
+      "ldr_intensity": 4.0,
+      "specular": [
+        0.2,
+        0.2,
+        0.2
+      ]
+    }
+  },
+  "name": "desert",
+  "water": {
+    "shader": "planet_liquid_transparent",
+    "textures": {
+      "DepthColorTexture": "/pa/effects/textures/water_depth_diffuse.papa",
+      "DiffuseTexture": "/pa/effects/textures/water_diffuse.papa",
+      "NoiseTexture": "/pa/effects/textures/CloudNoise.papa",
+      "NormalTexture": "/pa/effects/textures/water_normal.papa"
+    }
+  }
+}
