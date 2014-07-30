@@ -1,8 +1,0 @@
-{
-  "base_spec": "/pa/terrain/jungle/features/base_jungle_spike_plant.json",
-  "damageable": true,
-  "max_health": 10,
-  "model": {
-    "filename": "/pa/terrain/jungle/fbx/jungle_spike_plant_03.papa"
-  }
-}

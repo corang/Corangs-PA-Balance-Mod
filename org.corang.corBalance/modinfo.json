@@ -1,0 +1,10 @@
+{
+    "enabled" : true,
+    "context" : "server",
+    "identifier" : "org.corang.corBalance",
+    "display_name" : "Corang's Simplified Balance",
+    "description" : "A balance mod that aims to rid PA of tiered units and give each unit a specalized role.",
+    "author" : "Corang",
+    "version" : "0.0.1",
+    "signature" : "(not yet implemented)"
+}
