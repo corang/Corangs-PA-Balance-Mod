@@ -1,0 +1,1 @@
+{"name":"base","layers":[{"noise":{"type":"metal","ring_even_period":200.0},"display_noise":false,"place_brushes":false},{"noise":{"type":"metal","ring_even_period":200.0,"ring_even_twist":10.0},"display_noise":false,"place_brushes":false}],"color":[0.89,0.68,0.45,1]}
