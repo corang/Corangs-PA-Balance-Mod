@@ -9,7 +9,7 @@
     "ORDER_Attack"
   ],
   "description": "Torpedo Launcher- Advanced anti-ship defense.",
-  "display_name": "Advanced Torpedo Launcher",
+  "display_name": "Torpedo Launcher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

@@ -43,7 +43,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced fabricator- Wired to build structures.",
-  "display_name": "Advanced Fabrication Vehicle",
+  "display_name": "Fabrication Vehicle",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

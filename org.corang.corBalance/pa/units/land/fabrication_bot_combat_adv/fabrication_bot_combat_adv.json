@@ -44,7 +44,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced fabricator combatant- Wired to repair units and build battlefield structures. Can only build units for which it has a blueprint.",
-  "display_name": "Advanced Combat Fabrication Bot",
+  "display_name": "Combat Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

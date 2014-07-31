@@ -27,7 +27,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced manufacturing- Builds bots.",
-  "display_name": "Advanced Bot Factory",
+  "display_name": "Bot Factory",
   "events": {
     "died": {
       "effect_scale": 1.5

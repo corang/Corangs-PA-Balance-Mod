@@ -42,7 +42,7 @@
     "ORDER_Assist"
   ],
   "description": "Advanced fabricator- Wired to build naval structures.",
-  "display_name": "Advanced Fabrication Ship",
+  "display_name": "Fabrication Ship",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

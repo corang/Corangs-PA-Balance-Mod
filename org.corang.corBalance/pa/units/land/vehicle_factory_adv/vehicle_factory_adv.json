@@ -27,7 +27,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced manufacturing- Builds land vehicles.",
-  "display_name": "Advanced Vehicle Factory",
+  "display_name": "Vehicle Factory",
   "events": {
     "died": {
       "effect_scale": 1.5

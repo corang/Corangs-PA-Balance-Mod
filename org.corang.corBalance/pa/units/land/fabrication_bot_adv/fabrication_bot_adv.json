@@ -43,7 +43,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced fabricator- Wired to build structures.",
-  "display_name": "Advanced Fabrication Bot",
+  "display_name": "Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

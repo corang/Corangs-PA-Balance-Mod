@@ -8,7 +8,7 @@
     "energy": 4500
   },
   "description": "Advanced radar- Detects nearby enemy land, sea, and air units.",
-  "display_name": "Advanced Radar",
+  "display_name": "Radar",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
@@ -74,21 +74,14 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 300,
+          "radius": 100,
           "shape": "capsule",
-          "uses_energy": true
+          "uses_energy": false
         },
         {
           "channel": "radar",
           "layer": "surface_and_air",
-          "radius": 1200,
-          "shape": "capsule",
-          "uses_energy": true
-        },
-        {
-          "channel": "radar",
-          "layer": "orbital",
-          "radius": 1200,
+          "radius": 600,
           "shape": "capsule",
           "uses_energy": true
         },
@@ -96,6 +89,13 @@
           "channel": "sight",
           "layer": "orbital",
           "radius": 300,
+          "shape": "capsule",
+          "uses_energy": true
+        },
+        {
+          "channel": "radar",
+          "layer": "orbital",
+          "radius": 600,
           "shape": "capsule",
           "uses_energy": true
         }

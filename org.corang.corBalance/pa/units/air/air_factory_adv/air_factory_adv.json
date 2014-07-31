@@ -26,7 +26,7 @@
     "ORDER_Assist"
   ],
   "description": "Advanced manufacturing- Builds air units.",
-  "display_name": "Advanced Air Factory",
+  "display_name": "Air Factory",
   "events": {
     "died": {
       "effect_scale": 1.5

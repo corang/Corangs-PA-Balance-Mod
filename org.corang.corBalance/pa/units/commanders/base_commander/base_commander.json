@@ -31,7 +31,7 @@
     }
   },
   "build_metal_cost": 25000,
-  "buildable_types": "CmdBuild",
+  "buildable_types": "Factory & Land & Tank & Advanced | Factory & Advanced & Bot & Land | Factory & Advanced & Air | Naval & Factory & Advanced | CmdBuild",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",

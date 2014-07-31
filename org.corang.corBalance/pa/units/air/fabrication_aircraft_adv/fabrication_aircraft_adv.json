@@ -43,7 +43,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced fabricator- Wired to build structures.",
-  "display_name": "Advanced Fab Aircraft",
+  "display_name": "Fabrication Aircraft",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
